@@ -7,55 +7,47 @@ import type {
 import { LinkPreset } from './types/config'
 
 export const siteConfig: SiteConfig = {
-  title: 'Fuwari',
-  subtitle: 'Demo Site',
-  lang: 'en',
-  themeHue: 250,
+  title: 'Moshi',
+  subtitle: 'Developer Blog',
+  lang: 'id',
+  themeHue: 150,
   banner: {
-    enable: false,
-    src: 'assets/images/demo-banner.png',
+    enable: true,
+    src: 'https://upload.wikimedia.org/wikipedia/commons/1/1e/Chinese_Vintage_Wallpaper_%283995309930%29.jpg',
   },
-  favicon: [    // Leave this array empty to use the default favicon
+  favicon: [
+    // Leave this array empty to use the default favicon
     // {
     //   src: '/favicon/icon.png',    // Path of the favicon, relative to the /public directory
     //   theme: 'light',              // (Optional) Either 'light' or 'dark', set only if you have different favicons for light and dark mode
     //   sizes: '32x32',              // (Optional) Size of the favicon, set only if you have favicons of different sizes
     // }
-  ]
-}
-
-export const navBarConfig: NavBarConfig = {
-  links: [
-    LinkPreset.Home,
-    LinkPreset.Archive,
-    LinkPreset.About,
-    {
-      name: 'GitHub',
-      url: 'https://github.com/saicaca/fuwari',
-      external: true,
-    },
   ],
 }
 
+export const navBarConfig: NavBarConfig = {
+  links: [LinkPreset.Home, LinkPreset.Archive, LinkPreset.About],
+}
+
 export const profileConfig: ProfileConfig = {
-  avatar: 'assets/images/demo-avatar.png',
-  name: 'Lorem Ipsum',
-  bio: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
+  avatar: 'assets/images/avatar.jpeg',
+  name: 'Moshi 🍥',
+  bio: '/* #AndroidDev fueled by curiosity. Debugging code & life 🌱🐞 Sharing my journey & lessons learned 🍵 */',
   links: [
     {
       name: 'Twitter',
       icon: 'fa6-brands:twitter',
-      url: 'https://twitter.com',
-    },
-    {
-      name: 'Steam',
-      icon: 'fa6-brands:steam',
-      url: 'https://store.steampowered.com',
+      url: 'https://twitter.com/gradlew_',
     },
     {
       name: 'GitHub',
       icon: 'fa6-brands:github',
-      url: 'https://github.com/saicaca/fuwari',
+      url: 'https://github.com/akbarhmu',
+    },
+    {
+      name: 'Play Store',
+      icon: 'fa6-brands:google-play',
+      url: 'https://play.google.com/store/apps/dev?id=9002881621187826045',
     },
   ],
 }
