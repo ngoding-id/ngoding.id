@@ -10,7 +10,10 @@ export const siteConfig: SiteConfig = {
   title: 'Moshi',
   subtitle: 'Developer Blog',
   lang: 'id',
-  themeHue: 150,
+  themeColor: {
+    hue: 250,         // Default hue for the theme color, from 0 to 360. e.g. red: 0, teal: 200, cyan: 250, pink: 345
+    fixed: false,     // Hide the theme color picker for visitors
+  },
   banner: {
     enable: true,
     src: 'https://upload.wikimedia.org/wikipedia/commons/1/1e/Chinese_Vintage_Wallpaper_%283995309930%29.jpg',
