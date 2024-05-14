@@ -15,8 +15,8 @@ export const siteConfig: SiteConfig = {
     fixed: true, // Hide the theme color picker for visitors
   },
   banner: {
-    enable: false,
-    src: '',
+    enable: true,
+    src: 'https://upload.wikimedia.org/wikipedia/commons/1/1e/Chinese_Vintage_Wallpaper_%283995309930%29.jpg',
   },
   favicon: [
     // Leave this array empty to use the default favicon
