@@ -16,7 +16,7 @@ export const siteConfig: SiteConfig = {
   },
   banner: {
     enable: true,
-    src: 'https://upload.wikimedia.org/wikipedia/commons/1/1e/Chinese_Vintage_Wallpaper_%283995309930%29.jpg',
+    src: 'assets/images/banner.jpg',
     position: 'center', // Equivalent to object-position, defaults center
     credit: {
       enable: false,         // Display the credit text of the banner image
