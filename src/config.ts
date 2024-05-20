@@ -15,7 +15,7 @@ export const siteConfig: SiteConfig = {
     fixed: true, // Hide the theme color picker for visitors
   },
   banner: {
-    enable: true,
+    enable: false,
     src: 'assets/images/banner.jpg',
     position: 'center', // Equivalent to object-position, defaults center
     credit: {
