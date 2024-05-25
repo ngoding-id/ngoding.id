@@ -28,7 +28,7 @@ const postUrl = decodeURIComponent(Astro.url.toString())
     <div class="flex gap-6 mt-2">
         <div>
             <div class="transition text-black/30 dark:text-white/30 text-sm">{i18n(I18nKey.author)}</div>
-            <div class="transition text-black/75 dark:text-white/75 whitespace-nowrap">{profileConf.name}</div>
+            <div class="transition text-black/75 dark:text-white/75 whitespace-nowrap">{(licenseConf.author) ? licenseConf.author : profileConf.name}</div>
         </div>
         <div>
             <div class="transition text-black/30 dark:text-white/30 text-sm">{i18n(I18nKey.publishedAt)}</div>
