@@ -1,9 +1,9 @@
 ---
 title: 'Configure Service Accounts and IAM for Google Cloud: Challenge Lab'
 published: 2024-05-25
-description: "Challenge lab ini akan membantu kita untuk memahami bagaimana cara membuat service account untuk mengakses BigQuery"
+description: ''
 image: 'https://cdn.qwiklabs.com/XJaEWiH%2F0mcRnfEIum7yEQptkSskqzoc10SQwjOjkJE%3D'
-tags: ['ARC134', 'The Arcade Level 1 - May 2024']
+tags: ['The Arcade Level 1 - May 2024']
 category: 'Google Cloud Skills Boost'
 draft: false 
 ---
