@@ -48,9 +48,9 @@ export const profileConfig: ProfileConfig = {
   bio: "/* #AndroidDev fueled by curiosity. Debugging code & life 🌱🐞 Sharing my journey & lessons learned 🍵 */",
   links: [
     {
-      name: "Twitter",
-      icon: "fa6-brands:twitter",
-      url: "https://twitter.com/gradlew_",
+      name: "Mastodon",
+      icon: "fa6-brands:mastodon",
+      url: "https://androiddev.social/@gradlew",
     },
     {
       name: "GitHub",
