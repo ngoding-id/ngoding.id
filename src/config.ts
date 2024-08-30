@@ -20,7 +20,7 @@ export const siteConfig: SiteConfig = {
     position: "center", // Equivalent to object-position, defaults center
     credit: {
       enable: true, // Display the credit text of the banner image
-      text: "Jakub Steiner <jimmac@gmail.com>", // Credit text to be displayed
+      text: "Dominik Baran <michaldominik@icloud.com> ", // Credit text to be displayed
       url: "https://gitlab.gnome.org/GNOME/gnome-backgrounds/-/blob/main/backgrounds/map-l.svg?ref_type=heads", // (Optional) URL link to the original artwork or artist's page
     },
   },
