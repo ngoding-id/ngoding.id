@@ -11,18 +11,18 @@ export const siteConfig: SiteConfig = {
   subtitle: "Developer Blog",
   lang: "id",
   themeColor: {
-    hue: 300, // Default hue for the theme color, from 0 to 360. e.g. red: 0, teal: 200, cyan: 250, pink: 345
+    hue: 150, // Default hue for the theme color, from 0 to 360. e.g. red: 0, teal: 200, cyan: 250, pink: 345
     fixed: true, // Hide the theme color picker for visitors
   },
   banner: {
-    enable: false,
-    src: 'assets/images/banner.jpg',
-    position: 'center', // Equivalent to object-position, defaults center
+    enable: true,
+    src: "assets/images/map-l.svg",
+    position: "center", // Equivalent to object-position, defaults center
     credit: {
-      enable: false,         // Display the credit text of the banner image
-      text: '',              // Credit text to be displayed
-      url: ''                // (Optional) URL link to the original artwork or artist's page
-    }
+      enable: true, // Display the credit text of the banner image
+      text: "Jakub Steiner <jimmac@gmail.com>", // Credit text to be displayed
+      url: "https://gitlab.gnome.org/GNOME/gnome-backgrounds/-/blob/main/backgrounds/map-l.svg?ref_type=heads", // (Optional) URL link to the original artwork or artist's page
+    },
   },
   favicon: [
     // Leave this array empty to use the default favicon
@@ -35,12 +35,8 @@ export const siteConfig: SiteConfig = {
 };
 
 export const navBarConfig: NavBarConfig = {
-  links: [
-    LinkPreset.Home,
-    LinkPreset.Archive,
-    LinkPreset.About,
-  ],
-}
+  links: [LinkPreset.Home, LinkPreset.Archive, LinkPreset.About],
+};
 
 export const profileConfig: ProfileConfig = {
   avatar: "assets/images/avatar.jpeg",
